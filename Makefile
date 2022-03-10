@@ -11,4 +11,3 @@ bundle:
 
 lint:
 	yamllint _gtfobins/*.md
-	scripts/validate-schema.py
