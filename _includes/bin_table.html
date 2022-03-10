@@ -1,0 +1,217 @@
+<div id="bin-search-wrapper">
+    <ul id="bin-search-filters" class="function-list">
+        {% for function_pair in site.data.properties %}
+        {% assign function_id = function_pair[0] %}
+        {% assign function = function_pair[1] %}
+        <li><a href="#+{{ function.label | downcase }}">{{ function.label }}</a></li>
+        <!--<li><a href="#+{{ function.label | downcase }}" data-title="{{ function.description | replace: '\n', ' ' }}">{{ function.label }}</a></li>-->
+        {% endfor %}
+    </ul>
+    <ul id="bin-search-filters" class="function-list">
+        {% for function_pair in site.data.attacks-techniques %}
+        {% assign function_id = function_pair[0] %}
+        {% assign function = function_pair[1] %}
+        <li><a href="#+{{ function.label | downcase }}">{{ function.label }}</a></li>
+        <!--<li><a href="#+{{ function.label | downcase }}" data-title="{{ function.description | replace: '\n', ' ' }}">{{ function.label }}</a></li>-->
+        {% endfor %}
+    </ul>
+
+    <!-- <div class="slider-main"> -->
+        <ul class="slider" id="bin-search-filters">
+            {% for function_pair in site.data.combination %}
+            {% assign function_id = function_pair[0] %}
+            {% assign function = function_pair[1] %}
+            <li><a href="#+{{ function.label | downcase }}">{{ function.label }}</a></li>
+            <!--<li><a href="#+{{ function.label | downcase }}" data-title="{{ function.description | replace: '\n', ' ' }}">{{ function.label }}</a></li>-->
+            {% endfor %}
+        </ul>
+    <!-- </div> -->
+
+    <input id="bin-search" type="text" placeholder="Search among {{ site.gtfobins | size }} vms: <vm-name> +<attribute> ..."/>
+
+</div>
+
+<!-- <div id="bin-search-wrapper"> -->
+<!-- <input id="bin-search" type="text" placeholder="Search among {{ site.gtfobins | size }} vms: <vm> +<attribute> ..."/> -->
+<!-- </div> -->
+
+<div id="bin-table-wrapper">
+    <table id="bin-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Properties</th>
+                <th>All Services/Software</th>
+                <th>Pentest Services/Software</th>
+                <th>Attacks/Techniques</th>
+                <th>Subtechniques (spoiler)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for file in site.gtfobins %}
+            <tr>
+                
+                <!--<td><a href="{{ file.url }}" class="bin-name">{% include get_bin_name path=file.path %}</a></td>-->
+                <td><a class="bin-name">{% include get_bin_name path=file.path %}</a></td>
+                <td>{% include properties_list.html bin=file %}</td>
+                <td>{% include all-services-software_list.html bin=file %}</td>
+                <td>{% include pentest-services-software_list.html bin=file %}</td>
+                <td>{% include attacks-techniques_list.html bin=file %}</td>
+                <td>{% include subtechniques-spoiler_list.html bin=file %}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr><td id="search-message" colspan="2">No binary matches...</td></tr>
+        </tfoot>
+    </table>
+</div>
+
+<script>
+ function filter(query) {
+     var queryArray = query.toLowerCase().trim().split(/ *\+/);
+     var binPattern = queryArray[0];
+     var functionPatterns = queryArray.splice(1);
+     // filter rows
+     var noResults = true;
+     document.querySelectorAll('#bin-table tbody tr').forEach(function (row) {
+         var show = true;
+         var binName = row.children[0].firstElementChild.innerText.toLowerCase();
+         if (binName.indexOf(binPattern) === -1) {
+             show = false;
+         }
+         if (show) {
+             var functionElems1 = Array.from(row.children[1].firstElementChild.children);
+             functionElems1.forEach((item) => {
+                 item.className = '';
+             });
+             var functionElems2 = Array.from(row.children[2].firstElementChild.children);
+             functionElems2.forEach((item) => {
+                 item.className = '';
+             });
+             var functionElems3 = Array.from(row.children[3].firstElementChild.children);
+             functionElems3.forEach((item) => {
+                 item.className = '';
+             });
+             var functionElems4 = Array.from(row.children[4].firstElementChild.children);
+             functionElems4.forEach((item) => {
+                 item.className = '';
+             });
+             var functionElems5 = Array.from(row.children[5].firstElementChild.children);
+             functionElems5.forEach((item) => {
+                 item.className = '';
+             });
+
+             functionPatterns.forEach((pattern) => {
+                 // skip empty filters
+                 if (!pattern) {
+                     return;
+                 }
+                 // check against the pattern
+                 var noMatches = true;
+                 functionElems1.forEach((item) => {
+                     if (item.innerText.toLowerCase().startsWith(pattern.toLowerCase())) {
+                         item.className = 'match';
+                         noMatches = false;
+                     }
+                 });
+                 functionElems2.forEach((item) => {
+                     if (item.innerText.toLowerCase().startsWith(pattern.toLowerCase())) {
+                         item.className = 'match';
+                         noMatches = false;
+                     }
+                 });
+                 functionElems3.forEach((item) => {
+                     if (item.innerText.toLowerCase().startsWith(pattern.toLowerCase())) {
+                         item.className = 'match';
+                         noMatches = false;
+                     }
+                 });
+                 functionElems4.forEach((item) => {
+                     if (item.innerText.toLowerCase().startsWith(pattern.toLowerCase())) {
+                         item.className = 'match';
+                         noMatches = false;
+                     }
+                 });
+                 functionElems5.forEach((item) => {
+                     if (item.innerText.toLowerCase().startsWith(pattern.toLowerCase())) {
+                         item.className = 'match';
+                         noMatches = false;
+                     }
+                 });
+
+                 // no function satisfies the pattern
+                 if (noMatches) {
+                     show = false;
+                 }
+             });
+
+         }
+         if (show) {
+             row.style.display = '';
+             noResults = false;
+         } else {
+             row.style.display = 'none';
+         }
+     });
+     // update the search message visibility
+     var searchMessage = document.getElementById('search-message');
+     searchMessage.style.display = noResults ? 'table-cell' : 'none';
+ }
+ function applyFilter() {
+     // filter on load according to the URL
+     var searchBox = document.getElementById('bin-search');
+     var query = decodeURIComponent(location.hash.slice(1));
+     filter(query);
+     if (query) {
+         searchBox.value = query;
+     }
+ }
+ function setup() {
+     var searchBox = document.getElementById('bin-search');
+     // ensure height during filtering
+     var binTableWrapper = document.getElementById('bin-table-wrapper');
+     binTableWrapper.style.height = binTableWrapper.clientHeight + 'px';
+     // handle user input
+     searchBox.addEventListener('input', function () {
+         var query = searchBox.value;
+         history.replaceState(null, null, encodeURI('#' + query));
+         applyFilter();
+     });
+     // handle shortcuts
+     addEventListener('keydown', function (event) {
+         // focus search box on valid keydown
+         if (event.key.toLowerCase().match(/^[+a-z]$/) &&
+             !(event.ctrlKey || event.altKey || event.metaKey)) {
+             searchBox.focus();
+             searchBox.parentElement.scrollIntoView();
+         }
+         // clear filter on escape
+         else if (event.key === 'Escape') {
+             location.hash = searchBox.value = '';
+             searchBox.focus();
+             searchBox.parentElement.scrollIntoView();
+         }
+     });
+     // handle URL changes
+     window.onhashchange = applyFilter;
+     // trigger filter on page load
+     applyFilter();
+ }
+ setup();
+</script>
+<script>
+    $(document).ready(function() {
+        $('.slider').slick({
+              autoplay:true,
+              autoplaySpeed:1500,
+              arrows:true,
+              prevArrow:'<button type="button" class="slick-prev"></button>',
+              nextArrow:'<button type="button" class="slick-next"></button>',
+              centerMode:true,
+              slidesToShow:5,
+              slidesToScroll:1
+        });
+    })
+</script>
+

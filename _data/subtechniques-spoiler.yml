@@ -1,0 +1,1517 @@
+---
+# this is the rendering order of functions
+
+directory-fuzzing:
+  label: directory fuzzing
+
+command-injection:
+  label: command injection
+
+code-execution:
+  label: code execution
+
+cookie-hijacking:
+  label: cookie hijacking
+
+extension-fuzzing:
+  label: extension fuzzing
+
+idor:
+  label: idor
+
+rfi:
+  label: rfi
+
+lfi:
+  label: lfi
+
+gpp-decrypt:
+  label: gpp decrypt
+
+node-deserialization:
+  label: node deserialization
+
+log-poisoning:
+  label: log poisoning
+
+bash-execution-injection:
+  label: bash execution/injection
+
+xxe:
+  label: xxe
+
+login-bruteforce:
+  label: login bruteforce
+
+snakeyaml-deserialization:
+  label: snakeyaml deserialization
+
+python-deserialization:
+  label: python deserialization
+
+kerberoasting:
+  label: kerberoasting
+
+CVE-2017-8917:
+  label: CVE-2017-8917
+
+CVE-2018-14009:
+  label: CVE-2018-14009
+
+mysql-sha1-hash-decrypt:
+  label: mysql-sha1 hash decrypt
+
+bcrypt-hash-decrypt:
+  label: bcrypt hash decrypt
+
+CVE-2015-3306:
+  label: CVE-2015-3306
+
+CVE-2017-0144:
+  label: CVE-2017-0144
+
+CVE-2004-1561:
+  label: CVE-2004-1561
+
+CVE-2014-6271:
+  label: CVE-2014-6271
+
+CVE-2014-6287:
+  label: CVE-2014-6287
+
+CVE-2018-19571:
+  label: CVE-2018-19571
+
+CVE-2018-19585:
+  label: CVE-2018-19585
+
+CVE-2019-16278:
+  label: CVE-2019-16278
+
+CVE-2019-17536:
+  label: CVE-2019-17536
+
+CVE-2019-6714:
+  label: CVE-2019-6714
+
+CVE-2019-7609:
+  label: CVE-2019-7609
+
+CVE-2019-8942:
+  label: CVE-2019-8942
+
+CVE-2019-8943:
+  label: CVE-2019-8943
+
+CVE-2019-9053:
+  label: CVE-2019-9053
+
+base58-decode:
+  label: base58 decode
+
+base62-decode:
+  label: base62 decode
+
+base64-decode:
+  label: base64 decode
+
+binary-to-ascii:
+  label: binary to ascii
+
+default-common-creds:
+  label: default/common creds
+
+eternalblue:
+  label: eternalblue
+
+exposed-credentials:
+  label: exposed credentials
+
+gost-hash-decrypt:
+  label: gost hash decrypt
+
+hexadecimal-file-modification:
+  label: hexadecimal file modification
+
+image-inspection:
+  label: image inspection
+
+krb5tgs-hash-decrypt:
+  label: krb5tgs hash decrypt
+
+md5-hash-decrypt:
+  label: md5 hash decrypt
+
+md5-hash-with-salt-decrypt:
+  label: md5 hash with salt decrypt
+
+ntlm-hash-decrypt:
+  label: ntlm hash decrypt
+
+osint:
+  label: osint
+
+pickle-decode:
+  label: pickle decode
+
+public-exploit:
+  label: public exploit
+
+rabbit-hole:
+  label: rabbit hole
+
+shellshock:
+  label: shellshock
+
+rot13:
+  label: rot13
+
+hidden-file:
+  label: hidden file
+
+source-code-inspection:
+  label: source code inspection
+
+sql-injection:
+  label: sql injection
+
+stored-creds:
+  label: stored creds
+
+vhost-subdomain-fuzzing:
+  label: vhost/subdomain fuzzing
+
+file-upload-via-ftp:
+  label: file upload via ftp
+
+vhd-mount:
+  label: vhd mount
+
+xss:
+  label: xss
+
+backup-file:
+  label: backup file
+
+pkzip-hash-decrypt:
+  label: pkzip hash decrypt
+
+parameter-fuzzing:
+  label: parameter fuzzing
+
+config-file:
+  label: config file
+
+cisco-type-5-hash-decrypt:
+  label: cisco type 5 hash decrypt
+
+cisco-type-7-hash-decrypt:
+  label: cisco type 7 hash decrypt
+
+password-spraying:
+  label: password spraying
+
+CVE-2016-3714:
+  label: CVE-2016-3714
+
+CVE-2018-16763:
+  label: CVE-2018-16763
+
+wordpress-hash-decrypt:
+  label: wordpress hash decrypt
+
+nfs-mount:
+  label: nfs mount
+
+asrep-roasting:
+  label: ASREP Roasting
+
+rid-cycling:
+  label: rid cycling
+
+change-password:
+  label: change password
+
+krb5asrep-hash-decrypt:
+  label: krb5asrep hash decrypt
+
+encode:
+  label: encode
+
+CVE-2007-2447:
+  label: CVE-2007-2447
+
+CVE-2004-2687:
+  label: CVE-2004-2687
+
+apache-md5-hash-decrypt:
+  label: apache md5 hash decrypt
+
+cronjob:
+  label: cronjob
+
+insecure-permissions:
+  label: insecure permissions
+
+md5-decrypt:
+  label: md5 decrypt
+
+couchdb-enumeration:
+  label: couchdb enumeration
+
+CVE-2017-12636:
+  label: CVE-2017-12636
+
+CVE-2020-35846:
+  label: CVE-2020-35846
+
+CVE-2020-35847:
+  label: CVE-2020-35847
+
+CVE-2020-35848:
+  label: CVE-2020-35848
+
+sqlite3-enumeration:
+  label: sqlite3 enumeration
+
+sha512-hash-decrypt:
+  label: sha512 hash decrypt
+
+sha1-hash-decrypt:
+  label: sha1 hash decrypt
+
+wordpress-privilege-escalation:
+  label: wordpress privesc
+
+domain-zone-transfer:
+  label: domain zone transfer
+
+ssrf:
+  label: ssrf
+
+CVE-2018-9276:
+  label: CVE-2018-9276
+
+alternative-php-file-upload:
+  label: alternative php file upload
+
+php-deserialization:
+  label: php deserialization
+
+file-upload-via-rsync:
+  label: file upload via rsync
+
+ssh-bruteforce:
+  label: ssh bruteforce
+
+file-upload-via-redis:
+  label: file upload via redis
+
+CVE-2012-4869:
+  label: CVE-2012-4869
+
+CVE-2016-3088:
+  label: CVE-2016-3088
+
+snmp-enumeration:
+  label: snmp enumeration
+
+CVE-2014-4688:
+  label: CVE-2014-4688
+
+CVE-2010-2075:
+  label: CVE-2010-2075
+
+CVE-2014-0160:
+  label: CVE-2014-0160
+
+heartbleed:
+  label: heartbleed
+
+ook-decode:
+  label: Ook! decode
+
+brainfuck-decode:
+  label: brainfuck decode
+
+CVE-2017-9101:
+  label: CVE-2017-9101
+
+CVE-2015-1397:
+  label: CVE-2015-1397
+
+CVE-2015-1398:
+  label: CVE-2015-1398
+
+CVE-2015-1399:
+  label: CVE-2015-1399
+
+CVE-2008-4250:
+  label: CVE-2008-4250
+
+ms08-067:
+  label: MS08-067
+
+froghopper:
+  label: Froghopper
+
+ms17-010:
+  label: MS17-010
+
+disassemble-java-class:
+  label: disassemble java class
+
+sensitive-data-exposure:
+  label: sensitive data exposure
+
+CVE-2020-12772:
+  label: CVE-2020-12772
+
+netntlmv2-hash-decrypt:
+  label: netntlmv2 hash decrypt
+
+CVE-2020-7384:
+  label: CVE-2020-7384
+
+CVE-2018-1133:
+  label: CVE-2018-1133
+
+CVE-2018-7600:
+  label: CVE-2018-7600
+
+unrestricted-file-upload:
+  label: unrestricted file upload
+
+CVE-2015-6668:
+  label: CVE-2015-6668
+
+CVE-2019-13358:
+  label: CVE-2019-13358
+
+mysql-enumeration:
+  label: mysql enumeration
+
+CVE-2020-14144:
+  label: CVE-2020-14144
+
+pickle-file-upload:
+  label: pickle file upload
+
+CVE-2010-2861:
+  label: CVE-2010-2861
+
+CVE-2009-2265:
+  label: CVE-2009-2265
+
+ssrf-bypass:
+  label: ssrf bypass
+
+code-reconstruction:
+  label: code reconstruction
+
+cookie-forgery:
+  label: cookie forgery
+
+ssti:
+  label: ssti
+
+evil-regex:
+  label: evil regex
+
+dump-git-repository:
+  label: dump git repository
+
+vulnerable-code:
+  label: vulnerable code
+
+bypass-via-ip-origin:
+  label: bypass via ip origin
+
+strcmp-bypass:
+  label: strcmp bypass
+
+log-file:
+  label: log file
+
+port-knock:
+  label: port knock
+
+packet-or-dump-inspection:
+  label: packet or dump inspection
+
+custom-fuzzing:
+  label: custom fuzzing
+
+werkzeug-console-pin-exploit:
+  label: werkzeug console pin exploit
+
+cracking-wifi-password:
+  label: cracking wifi password
+
+nosql-injection:
+  label: nosql injection
+
+CVE-2021-22911:
+  label: CVE-2021-22911
+
+gpg-decrypt:
+  label: gpg decrypt
+
+CVE-2020-1938:
+  label: CVE-2020-1938
+
+CVE-2019-15107:
+  label: CVE-2019-15107
+
+auth-bypass-via-cookie-forgery:
+  label: auth bypass via cookie forgery
+
+CVE-2020-28871:
+  label: CVE-2020-28871
+
+ssti-bypass:
+  label: ssti bypass
+
+CVE-2019-17662:
+  label: sam-decrypt
+
+sam-decrypt:
+  label: sam decrypt
+
+CVE-2018-1000094:
+  label: CVE-2018-1000094
+
+CVE-2017-7494:
+  label: CVE-2017-7494
+
+CVE-2020-11108:
+  label: CVE-2020-11108
+
+redis-rogue-server:
+  label: redis rogue server
+
+auth-bypass-via-sql-injection:
+  label: auth bypass via sql injection
+
+CVE-2018-15961:
+  label: CVE-2018-15961
+
+file-upload-via-sql-queries:
+  label: file upload via sql queries
+
+wordpress-plugin:
+  label: wordpress plugin
+
+lua-code-execution-injection:
+  label: lua code execution/injection
+
+CVE-2020-1472:
+  label: CVE-2020-1472
+
+osint-github-repository:
+  label: osint-github-repository
+
+auth-bypass-via-ignore-redirect:
+  label: auth bypass via ignore redirect
+
+java-deserialization:
+  label: java deserialization
+
+file-upload-via-smb:
+  label: file upload via smb
+
+api-hacking:
+  label: api hacking
+
+stego-bruteforce:
+  label: stego bruteforce
+
+system-file:
+  label: system file
+
+CVE-2014-1812:
+  label: CVE-2014-1812
+
+sha256-hash-decrypt:
+  label: sha256 hash decrypt
+
+jsp-file-upload:
+  label: jsp file upload
+
+sqlite3-injection:
+  label: sqlite3 injection
+
+document-inspection:
+  label: document inspection
+
+mysql-injection:
+  label: mysql injection
+
+CVE-2019-20085:
+  label: CVE-2019-20085
+
+php-code-execution-injection:
+  label: php code execution/injection
+
+CVE-2019-12744:
+  label: CVE-2019-12744
+
+html-decode:
+  label: html decode
+
+pop3-bruteforce:
+  label: pop3 bruteforce
+
+osint-pastebin:
+  label: osint-pastebin
+
+vigenere-decrypt:
+  label: vigenere decrypt
+
+download-source-code-via-http:
+  label: download source code via http
+
+kerberos-bruteforce:
+  label: kerberos bruteforce
+
+postgresql-enumeration:
+  label: postgresql enumeration
+
+smb-bruteforce:
+  label: smb bruteforce
+
+office-hash-decrypt:
+  label: office hash decrypt
+
+capture-ntlm-hash:
+  label: capture ntlm hash
+
+scheduled-task:
+  label: scheduled task
+
+software-functionality:
+  label: software functionality
+
+cookie-token-field-manipulation:
+  label: cookie/token/field manipulation
+
+CVE-2018-15133:
+  label: CVE-2018-15133
+
+CVE-2019-11447:
+  label: CVE-2019-11447
+
+file-upload-via-webdav:
+  label: file upload via webdav
+
+file-upload-bypass-by-rename:
+  label: file upload bypass by rename
+
+CVE-2017-7269:
+  label: CVE-2017-7269
+
+rid-cycling-brute:
+  label: rid cycling/brute
+
+password-spraying-via-ssh:
+  label: password spraying via ssh
+
+update-value-via-sql-query:
+  label: update value via sql query
+
+joomla-rce-authenticated:
+  label: Joomla RCE authenticated
+
+wordpress-rce-authenticated:
+  label: WordPress RCE authenticated
+
+bolt-rce-authenticated:
+  label: Bolt RCE authenticated
+
+jenkins-rce-authenticated:
+  label: Jenkins RCE authenticated
+
+seeddms-rce-authenticated:
+  label: SeedDMS RCE authenticated
+
+umbraco-rce-authenticated:
+  label: Umbraco RCE authenticated
+
+coldfusion-rce-authenticated:
+  label: ColdFusion RCE authenticated
+
+cms-made-simple-rce-authenticated:
+  label: CMS Made Simple RCE authenticated
+
+moodle-rce-authenticated:
+  label: Moodle RCE authenticated
+
+voting-system-rce-authenticated:
+  label: Voting System RCE authenticated
+
+restricted-file-upload:
+  label: restricted file upload
+
+amsi-bypass:
+  label: amsi bypass
+
+auth-bypass-via-sql-truncation:
+  label: auth bypass via sql truncation
+
+ftp-bruteforce:
+  label: ftp bruteforce
+
+morse-code-decode:
+  label: morse code decode
+
+hex-decode:
+  label: hex decode
+
+CVE-2020-23934:
+  label: CVE-2020-23934
+
+api-fuzzing:
+  label: api fuzzing
+
+sqli-via-cookie:
+  label: sqli via cookie
+
+homedir-access:
+  label: homedir-access
+
+CVE-2019-6447:
+  label: CVE-2019-6447
+
+sudo-composer:
+  label: sudo composer
+
+seimpersonateprivilege:
+  label: SeImpersonatePrivilege
+
+sedebugprivilege:
+  label: SeDebugPrivilege
+
+sudo-socat:
+  label: sudo socat
+
+suid-env:
+  label: suid env
+
+capture-credentials:
+  label: capture credentials
+
+suid-custom:
+  label: suid custom
+
+path-hijacking:
+  label: path hijacking
+
+CVE-2010-2554:
+  label: CVE-2010-2554
+
+ms10-059:
+  label: MS10-059
+
+drupal7-hash-decrypt:
+  label: drupal7 hash decrypt
+
+sudo-snap:
+  label: sudo snap
+
+printnightmare:
+  label: PrintNightmare
+
+dcsync:
+  label: dcsync
+
+CVE-2020-25213:
+  label: CVE-2020-25213
+
+CVE-2020-11738:
+  label: CVE-2020-11738
+
+password-mutation:
+  label: password mutation
+
+autologon-creds:
+  label: autologon creds
+
+pivoting-port-forwarding:
+  label: pivoting/port forwarding
+
+sudo-su:
+  label: sudo su
+
+ms15-051:
+  label: MS15-051
+
+CVE-2015-1701:
+  label: CVE-2015-1701
+
+mremoteng-hash-decrypt:
+  label: mRemoteNG hash decrypt
+
+sudo-python-script:
+  label: sudo python script
+
+sudo-chmod:
+  label: sudo chmod
+
+sudo-nmap:
+  label: sudo nmap
+
+dirtycow:
+  label: dirtycow
+
+CVE-2019-1388:
+  label: CVE-2019-1388
+
+suid-find:
+  label: suid find
+
+CVE-2018-8120:
+  label: CVE-2018-8120
+
+sudo-tar:
+  label: sudo tar
+
+sudo-less:
+  label: sudo less
+
+sudo-nano:
+  label: sudo nano
+
+dnsadmins-group:
+  label: DnsAdmins group
+
+sudo-cat:
+  label: sudo cat
+
+python-capabilitie:
+  label: python capabilitie
+
+cap-setuid:
+  label: cap_setuid
+
+git-inspection:
+  label: git inspection
+
+sudo-setenv:
+  label: sudo setenv
+
+docker-esc-via-host-cronjob:
+  label: docker esc via host cronjob
+
+sudo-bash-script:
+  label: sudo bash script
+
+stego:
+  label: stego
+
+zip-hash-decrypt:
+  label: zip hash decrypt
+
+docker-group:
+  label: docker group
+
+sudo-vi:
+  label: sudo vi
+
+tar-wildcard:
+  label: tar wildcard
+
+sudo-exiftool:
+  label: sudo exiftool
+
+CVE-2021-22204:
+  label: CVE-2021-22204
+
+insecure-service-permissions:
+  label: insecure service permissions
+
+sudo-privesc-vim:
+  label: sudo/privesc vim
+
+sudo-ftp:
+  label: sudo ftp
+
+docker-escape:
+  label: docker escape
+
+CVE-2019-7304:
+  label: CVE-2019-7304
+
+decompress-tar:
+  label: decompress tar
+
+decompress-gz:
+  label: decompress gz
+
+sudo-yum:
+  label: sudo yum
+
+suid-xxd:
+  label: suid xxd
+
+unquoted-service-path:
+  label: unquoted service path
+
+firefox-decrypt:
+  label: firefox decrypt
+
+sudo-env:
+  label: sudo env
+
+ruby-capabilitie:
+  label: ruby capabilitie
+
+cap-chown:
+  label: cap_chown
+
+lxd-group:
+  label: lxd group
+
+docker-unix-socket:
+  label: docker unix socket
+
+custom-group:
+  label: custom group
+
+library-hijacking:
+  label: library hijacking
+
+sebackupprivilege:
+  label: SeBackupPrivilege
+
+backup-operators-group:
+  label: Backup Operators group
+
+CVE-2012-2982:
+  label: CVE-2012-2982
+
+port-knock-open-ssh:
+  label: port-knock-open-ssh
+
+special-permissions:
+  label: special permissions
+
+alwaysinstallelevated:
+  label: AlwaysInstallElevated
+
+doas-all:
+  label: doas all
+
+CVE-2015-1328:
+  label: CVE-2015-1328
+
+ms09-012:
+  label: MS09-012
+
+ms14-058:
+  label: MS14-058
+
+ms14-070:
+  label: MS14-070
+
+CVE-2019-18634:
+  label: CVE-2019-18634
+
+cryptography:
+  label: cryptography
+
+gpg-keys:
+  label: gpg keys
+
+sudo-flask-run:
+  label: sudo flask run
+
+procdump:
+  label: procdump
+
+CVE-2021-3560:
+  label: CVE-2021-3560
+
+setakeownershipprivilege:
+  label: SeTakeOwnershipPrivilege
+
+sudo-service:
+  label: sudo service
+
+sudo-tee:
+  label: sudo tee
+
+sudo-npm:
+  label: sudo npm
+
+sgid-custom:
+  label: sgid custom
+
+sudo-crontab:
+  label: sudo crontab
+
+sudo-knife:
+  label: sudo knife
+
+CVE-2008-0166:
+  label: CVE-2008-0166
+
+suid-nmap:
+  label: suid nmap
+
+sudo-perl-script:
+  label: sudo perl script
+
+suid-nano:
+  label: suid nano
+
+sudo-pkexec:
+  label: sudo pkexec
+
+symbolic-links:
+  label: symbolic links
+
+sudo-pico:
+  label: sudo pico
+
+empty-capabilitie:
+  label: empty capabilitie
+
+CVE-2021-3493:
+  label: CVE-2021-3493
+
+forensic:
+  label: forensic
+
+docker-escape-via-cap-sys-admin:
+  label: docker escape via cap_sys_admin
+
+tmux-session-hijacking:
+  label: tmux session hijacking
+
+chkrootkit:
+  label: chkrootkit
+
+sudo-bash:
+  label: sudo bash
+
+sudo-go-script:
+  label: sudo go script
+
+ms16-135:
+  label: MS16-135
+
+usbcreator-d-bus:
+  label: usbcreator d-bus
+
+decompyle-python-script:
+  label: decompyle python script
+
+pickle-encode:
+  label: pickle encode
+
+buffer-overflow:
+  label: buffer overflow
+
+vnc-pass:
+  label: vnc pass
+
+CVE-2010-0832:
+  label: CVE-2010-0832
+
+CVE-2016-5195:
+  label: CVE-2016-5195
+
+CVE-2019-12840:
+  label: CVE-2019-12840
+
+account-operators-group:
+  label: Account Operators group
+
+secure-string-to-plaintext:
+  label: secure string to plaintext
+
+docker-escape-via-mount:
+  label: docker escape via mount
+
+teamviewer-decrypt:
+  label: teamviewer decrypt
+
+sudo-xxd:
+  label: sudo xxd
+
+sudo-systemctl:
+  label: sudo systemctl
+
+sudo-sudoedit:
+  label: sudo sudoedit
+
+genericwrite-on-group:
+  label: GenericWrite on Group
+
+generic-rights:
+  label: generic rights
+
+CVE-2019-10758:
+  label: CVE-2019-10758
+
+file-upload-bypass-by-change-config:
+  label: file upload bypass by change config
+
+apparmor-restriction:
+  label: apparmor restriction
+
+sudo-python:
+  label: sudo python
+
+sudo-find:
+  label: sudo find
+
+control-rights:
+  label: control rights
+
+extended-right:
+  label: extended right
+
+insecure-service-executable:
+  label: insecure service executable
+
+sudo-msfconsole:
+  label: sudo msfconsole
+
+sudo-ssh:
+  label: sudo ssh
+
+ssh-keys:
+  label: ssh_keys
+
+sudo-perl:
+  label: sudo perl
+
+desunix-decrypt:
+  label: desunix decrypt
+
+sudo-apt-get:
+  label: sudo apt-get
+
+sudo-initctl:
+  label: sudo initctl
+
+abuse-gpo:
+  label: abuse-gpo
+
+keepass-creds:
+  label: keepass creds
+
+keepass-hash-decrypt:
+  label: keepass hash decrypt
+
+pcap-analysis:
+  label: pcap analysis
+
+xor-decrypt:
+  label: xor decrypt
+
+rot13-decode:
+  label: rot13 decode
+
+doas-rsync:
+  label: doas rsync
+
+genericwrite-on-user:
+  label: GenericWrite on User
+
+cap-dac-read-search:
+  label: cap_dac_read_search
+
+tar-capabilitie:
+  label: tar capabilitie
+
+sudo-luvit:
+  label: sudo luvit
+
+ssh-misconfiguration:
+  label: ssh misconfiguration
+
+sudo-journalctl:
+  label: sudo journalctl
+
+unattended-installation-file:
+  label: unattended installation file
+
+vim-capabilitie:
+  label: vim capabilitie
+
+CVE-2019-14287:
+  label: CVE-2019-14287
+
+sudo-java-file:
+  label: sudo java file
+
+sudo-pip3:
+  label: sudo pip3
+
+suid-systemctl:
+  label: suid systemctl
+
+sudo-custom-binary:
+  label: sudo custom binary
+
+sudo-wget:
+  label: sudo wget
+
+staff-group:
+  label: staff group
+
+misconfiguration:
+  label: misconfiguration
+
+bypass-two-factor:
+  label: bypass two-factor
+
+sudo-shutdown:
+  label: sudo shutdown
+
+sudo-reboot:
+  label: sudo reboot
+
+adb-shell:
+  label: adb shell
+
+CVE-2020-15099:
+  label: CVE-2020-15099
+
+ld-so-exploit:
+  label: ld.so exploit
+
+nfs-no-root-squash:
+  label: nfs no_root_squash
+
+sudo-scp:
+  label: sudo scp
+
+predictable-hash-calculation:
+  label: predictable hash calculation
+
+python-execution-injection:
+  label: python execution/injection
+
+bypass-python-sandboxes:
+  label: bypass python sandboxes
+
+CVE-2017-5638:
+  label: CVE-2017-5638
+
+CVE-2015-8351:
+  label: CVE-2015-8351
+
+decrypt-aes256cbc:
+  label: decrypt aes256cbc
+
+drupal-rce-authenticated:
+  label: Drupal RCE authenticated
+
+h2-database-rce-authenticated:
+  label: H2 Database RCE authenticated
+
+oracle-enumeration:
+  label: oracle enumeration
+
+directory-traversal:
+  label: directory traversal
+
+path-traversal:
+  label: path traversal
+
+encrypt-gpg:
+  label: encrypt gpg
+
+su-bruteforce:
+  label: su bruteforce
+
+mysql-rogue-server:
+  label: mysql rogue server
+
+sudo-screen:
+  label: sudo screen
+
+reverse-engineering:
+  label: reverse engineering
+
+base85-decode:
+  label: base85 decode
+
+docker-escape-via-ssh:
+  label: docker escape via ssh
+
+tac-capabilitie:
+  label: tac capabilitie
+
+csrf:
+  label: csrf
+
+mssql-injection:
+  label: mssql injection
+
+CVE-2016-6914:
+  label: CVE-2016-6914
+
+av-evasion:
+  label: av evasion
+
+reversing:
+  label: reversing
+
+redis-enumeration:
+  label: redis enumeration
+
+bgp-hijacking:
+  label: bgp hijacking
+
+mongodb-enumeration:
+  label: mongodb enumeration
+
+sudo-ld-preload:
+  label: sudo LD_PRELOAD
+
+sudo-group:
+  label: sudo group
+
+change-password-via-custom-app:
+  label: change password via custom app
+
+change-password-via-smb-rpc:
+  label: change password via smb/rpc
+
+apk-inspection:
+  label: apk inspection
+
+CVE-2011-2523:
+  label: CVE-2011-2523
+
+dynamic-dns:
+  label: dynamic dns
+
+dns-update:
+  label: dns update
+
+cp-wildcard:
+  label: cp wildcard
+
+node-js-execution-injection:
+  label: node-js execution/injection
+
+rop:
+  label: rop
+
+nginx-misconfiguration:
+  label: nginx misconfiguration
+
+perl-execution-injection:
+  label: perl execution/injection
+
+cracking-pkcs12:
+  label: cracking pkcs12
+
+CVE-2019-20933:
+  label: CVE-2019-20933
+
+influxdb-enumeration:
+  label: influxdb enumeration
+
+docker-privesc-via-tcp-socket:
+  label: docker privesc via tcp socket
+
+port-knock-open-docker-engine-api:
+  label: port-knock-open-docker-engine-api
+
+docker-escape-via-tcp-socket:
+  label: docker escape via tcp socket
+
+port-knock-open-ftp:
+  label: port-knock-open-ftp
+
+port-knock-open-https:
+  label: port-knock-open-https
+
+number-to-ascii:
+  label: number to ascii
+
+npiet-decode:
+  label: npiet decode
+
+CVE-2019-15949:
+  label: CVE-2019-15949
+
+sudo-umount:
+  label: sudo umount
+
+mnemonic-decrypt:
+  label: mnemonic decrypt
+
+CVE-2020-10914:
+  label: CVE-2020-10914
+
+CVE-2020-10915:
+  label: CVE-2020-10915
+
+net-deserialization:
+  label: .NET deserialization
+
+7z-hash-decrypt:
+  label: 7z hash decrypt
+
+xpath-injection:
+  label: xpath injection
+
+vim-escape:
+  label: vim escape
+
+session-hijacking-via-custom-app:
+  label: session hijacking via custom app
+
+padding-oracle:
+  label: padding oracle
+
+aes-decrypt:
+  label: aes decrypt
+
+osint-twitter-account:
+  label: osint-twitter-account
+
+phishing-via-email:
+  label: phishing via email
+
+suid-dd:
+  label: suid dd
+
+race-condition:
+  label: race condition
+
+batflat-rce-authenticated:
+  label: Batflat RCE authenticated
+
+sgid-ispell:
+  label: sgid ispell
+
+openssl-capabilitie:
+  label: openssl capabilitie
+
+CVE-2010-0738:
+  label: CVE-2010-0738
+
+403-fuzzing-bypass:
+  label: 403 fuzzing bypass
+
+CVE-2020-14343:
+  label: CVE-2020-14343
+
+change-firewall-rules:
+  label: change firewall rules
+
+cryptographic-challenge:
+  label: cryptographic challenge
+
+base32-decode:
+  label: base32 decode
+
+getsimple-rce-authenticated:
+  label: GetSimple RCE authenticated
+
+mdns-poisoning:
+  label: mdns poisoning
+
+sudo-dmesg:
+  label: sudo dmesg
+
+limesurvey-rce-authenticated:
+  label: LimeSurvey RCE authenticated
+
+CVE-2018-17057:
+  label: CVE-2018-17057
+
+debug-program-app:
+  label: debug program/app
+
+CVE-2021-44228:
+  label: CVE-2021-44228
+
+log4shell-via-ldap:
+  label: log4shell via ldap
+
+log4shell-via-rmi:
+  label: log4shell via rmi
+
+sudo-openvpn-privesc-via-conf:
+  label: sudo openvpn/privesc via conf
+
+network-inspection:
+  label: network inspection
+
+dns-spoofing:
+  label: dns spoofing
+
+capture-email:
+  label: capture email
+
+sudo-timedatectl:
+  label: sudo timedatectl
+
+sudo-docker-exec:
+  label: sudo docker exec
+
+yescrypt-hash-decrypt:
+  label: yescrypt hash decrypt
+
+x-backend-server-leak:
+  label: x-backend-server leak
+
+CVE-2019-17671:
+  label: CVE-2019-17671
+
+doas-openssl:
+  label: doas openssl
+
+openemr-rce-authenticated:
+  label: OpenEMR RCE authenticated
+
+rsync-wildcard:
+  label: rsync wildcard
+
+perl-capabilitie:
+  label: perl capabilitie
+
+cap-fowner:
+  label: cap_fowner
+
+CVE-2021-4034:
+  label: CVE-2021-4034
+
+CVE-2021-32099:
+  label: CVE-2021-32099
+
+CVE-2020-29599:
+  label: CVE-2020-29599
+
+sudo-xdg-config-home:
+  label: sudo XDG_CONFIG_HOME
+
+sudo-neofetch:
+  label: sudo neofetch
+
+CVE-2021-1675:
+  label: CVE-2021-1675
+
+CVE-2021-34527:
+  label: CVE-2021-34527
+
+android-static-analysis:
+  label: android static analysis
+
+source-code-review:
+  label: source code review
+
+dll-hijacking:
+  label: dll hijacking
+
+full-source-code-disclosure:
+  label: full source code disclosure

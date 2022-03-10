@@ -1,0 +1,19 @@
+---
+title: VVBL
+
+exclude: ['/scripts', '/Gemfile', '/Makefile', '/README.md', '/CONTRIBUTING.md']
+
+plugins:
+  - jemoji
+
+permalink: pretty
+
+collections:
+  gtfobins:
+    output: true
+
+defaults:
+  - scope:
+      path: '_gtfobins'
+    values:
+      layout: bin

@@ -1,0 +1,308 @@
+---
+# this is the rendering order of functions
+
+authenticated-rce:
+  label: authenticated rce
+
+cve:
+  label: cve
+
+deserialization:
+  label: deserialization
+
+directory-traversal:
+  label: directory traversal
+
+sql-injection:
+  label: sql injection
+
+log-poisoning:
+  label: log poisoning
+
+nosql-injection:
+  label: nosql injection
+
+ssti:
+  label: ssti
+
+xxe:
+  label: xxe
+
+xss:
+  label: xss
+
+ssrf:
+  label: ssrf
+
+file-upload:
+  label: file upload
+
+command-injection:
+  label: command injection
+
+idor:
+  label: idor
+
+fuzzing:
+  label: fuzzing
+
+kernel-exploit:
+  label: kernel exploit
+
+port-knock:
+  label: port knock
+
+api:
+  label: api
+
+stego:
+  label: stego
+
+bruteforce:
+  label: bruteforce
+
+prototype-pollution:
+  label: prototype pollution
+
+backup-config-system-log-file:
+  label: backup/config/system/log file
+
+misconfiguration:
+  label: misconfiguration
+
+inspection:
+  label: inspection
+
+creds:
+  label: creds
+
+code-execution-injection:
+  label: code-execution-injection
+
+db-enumeration:
+  label: db enumeration
+
+mount:
+  label: mount
+
+osint:
+  label: osint
+
+crlf-injection:
+  label: crlf injection
+
+decrypt:
+  label: decrypt
+
+decode:
+  label: decode
+
+password-spraying:
+  label: password spraying
+
+code-reconstruction:
+  label: code reconstruction
+
+restriction:
+  label: restriction
+
+session-hijacking:
+  label: session hijacking
+
+two-factor-pin-authentication:
+  label: two-factor/pin authentication
+
+authentication-bypass:
+  label: authentication bypass
+
+rogue-server:
+  label: rogue server
+
+unauthenticated-rce:
+  label: unauthenticated rce
+
+permissions:
+  label: permissions
+
+wp-plugin:
+  label: wp plugin
+
+dns-attack:
+  label: dns attack
+
+kerberos-attack:
+  label: kerberos attack
+
+udp-enumeration:
+  label: udp enumeration
+
+cracking:
+  label: cracking
+
+capture-hash-cred-email:
+  label: capture hash/cred/email
+
+cron-scheduled-tasks:
+  label: cron/scheduled tasks
+
+software-functionality:
+  label: software functionality
+
+broken-access-control:
+  label: broken access control
+
+update-file-value:
+  label: update file/value
+
+av-evasion:
+  label: av evasion
+
+sudo-privesc:
+  label: sudo/privesc
+
+token-impersonation:
+  label: token impersonation
+
+abuse-privileges:
+  label: abuse privileges
+
+suid:
+  label: suid
+
+hidden-file:
+  label: hidden file
+
+path-hijacking:
+  label: path hijacking
+
+user-groups:
+  label: user groups
+
+capabilities:
+  label: capabilities
+
+docker-escape-privesc:
+  label: docker escape/privesc
+
+pivoting-port-forwarding:
+  label: pivoting/port forwarding
+
+service-escalation:
+  label: service escalation
+
+decompress:
+  label: decompress
+
+library-hijacking:
+  label: library hijacking
+
+registry-escalation:
+  label: registry escalation
+
+sudo-alternative:
+  label: sudo alternative
+
+cryptography:
+  label: cryptography
+
+process-dump:
+  label: process dump
+
+packet-or-dump-inspection:
+  label: packet or dump inspection
+
+sgid:
+  label: sgid
+
+shell-escape-bypass-sandboxes:
+  label: shell escape/bypass sandboxes
+
+linux-function-hooking:
+  label: linux function hooking
+
+forensic:
+  label: forensic
+
+rootkit:
+  label: rootkit
+
+usbcreator-d-bus:
+  label: usbcreator d-bus
+
+pscredential:
+  label: pscredential
+
+abuse-rights:
+  label: abuse rights
+
+abuse-gpo:
+  label: abuse gpo
+
+adb:
+  label: adb
+
+ld-so-exploit:
+  label: ld.so exploit
+
+nfs-privesc:
+  label: nfs privesc
+
+predictable-hash-calculation:
+  label: predictable hash calculation
+
+inclusion-traversal:
+  label: inclusion/traversal
+
+encrypt:
+  label: encrypt
+
+gpg-keys:
+  label: gpg keys
+
+reverse-engineering:
+  label: reverse engineering
+
+csrf:
+  label: csrf
+
+reversing:
+  label: reversing
+
+bgp-hijacking:
+  label: bgp hijacking
+
+wildcard-exploit:
+  label: wildcard exploit
+
+binary-exploitation:
+  label: binary exploitation
+
+xpath-injection:
+  label: xpath injection
+
+padding-oracle:
+  label: padding oracle
+
+phishing:
+  label: phishing
+
+race-condition:
+  label: race condition
+
+firewall:
+  label: firewall
+
+debug-program-app:
+  label: debug program/app
+
+docker:
+  label: docker
+
+http-header-leak:
+  label: http header leak
+
+mobile-pentest:
+  label: mobile pentest
+
+source-code-review:
+  label: source code review

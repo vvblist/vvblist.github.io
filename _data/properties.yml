@@ -1,0 +1,77 @@
+---
+# this is the rendering order of functions
+
+easy:
+  label: easy
+
+medium:
+  label: medium
+
+hard:
+  label: hard
+
+insane:
+  label: insane
+
+hackthebox:
+  label: hackthebox
+
+tryhackme:
+  label: tryhackme
+
+cyberseclabs:
+  label: cyberseclabs
+
+vulnhub:
+  label: vulnhub
+
+ine:
+  label: ine
+
+unix:
+  label: unix
+
+android:
+  label: android
+
+windows:
+  label: windows
+
+realistic:
+  label: realistic
+
+ctf-realistic:
+  label: ctf/realistic
+
+ctf:
+  label: ctf
+
+free:
+  label: free
+
+paid:
+  label: paid
+
+freebsd:
+  label: freebsd
+
+ubuntu:
+  label: ubuntu
+
+debian:
+  label: debian
+
+centos:
+  label: centos
+
+chrome-os:
+  label: chrome os
+
+active-directory:
+  label: active directory
+
+osep-style:
+  label: osep-style
+
+oswe-style:
+  label: oswe-style

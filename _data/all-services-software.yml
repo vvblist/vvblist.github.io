@@ -1,0 +1,488 @@
+---
+# this is the rendering order of functions
+
+ssh:
+  label: ssh
+
+http:
+  label: http
+
+rpc:
+  label: rpc
+
+ldap:
+  label: ldap
+
+smb:
+  label: smb
+
+mysql:
+  label: mysql
+
+smtp:
+  label: smtp
+
+mssql:
+  label: mssql
+
+ftp:
+  label: ftp
+
+dns:
+  label: dns
+
+kerberos:
+  label: kerberos
+
+winrm:
+  label: winrm
+
+http-proxy:
+  label: http proxy
+
+rpcbind:
+  label: rpcbind
+
+https:
+  label: https
+
+pop:
+  label: pop
+
+netbios:
+  label: netbios
+
+git:
+  label: git
+
+nfs:
+  label: nfs
+
+rdp:
+  label: rdp
+
+imap:
+  label: imap
+
+tftp:
+  label: tftp
+
+snmp:
+  label: snmp
+
+postgresql:
+  label: postgresql
+
+apache:
+  label: apache
+
+wordpress-cms:
+  label: wordpress cms
+
+gunicorn:
+  label: gunicorn
+
+kibana:
+  label: kibana
+
+joomla-cms:
+  label: joomla cms
+
+bolt-cms:
+  label: bolt cms
+
+gila-cms:
+  label: gila cms
+
+cms-made-simple:
+  label: cms made simple
+
+blogengine-net:
+  label: BlogEngine .NET
+
+tomcat:
+  label: tomcat
+
+webdav:
+  label: webdav
+
+iis:
+  label: iis
+
+httpfileserver:
+  label: HttpFileServer
+
+nostromo:
+  label: nostromo
+
+jenkins:
+  label: jenkins
+
+squirrelmail:
+  label: SquirrelMail
+
+cuppa-cms:
+  label: cuppa cms
+
+mara-cms:
+  label: mara cms
+
+express-js:
+  label: express.js
+
+rsync:
+  label: rsync
+
+redis:
+  label: redis
+
+sweetrice:
+  label: SweetRice
+
+icecast:
+  label: Icecast
+
+webmin:
+  label: webmin
+
+gitlab:
+  label: gitlab
+
+asterisk:
+  label: asterisk
+
+vtiger-crm:
+  label: vtiger crm
+
+pbx:
+  label: PBX
+
+activemq:
+  label: ActiveMQ
+
+codiad:
+  label: codiad
+
+phpmyadmin:
+  label: phpmyadmin
+
+sar2html:
+  label: sar2html
+
+fuel-cms:
+  label: fuel cms
+
+memcache:
+  label: Memcache
+
+distcc:
+  label: distcc
+
+unrealircd:
+  label: UnrealIRCd
+
+clipbucket:
+  label: clipbucket
+
+cockpit-cms:
+  label: cockpit cms
+
+seeddms:
+  label: seeddms
+
+nginx:
+  label: nginx
+
+couchdb:
+  label: couchdb
+
+mongodb:
+  label: mongodb
+
+oscommerce:
+  label: osCommerce
+
+prtg-network-monitor:
+  label: PRTG Network Monitor
+
+node-red:
+  label: Node-RED
+
+playsms:
+  label: playSMS
+
+magento-cms:
+  label: magento cms
+
+ldaps:
+  label: ldaps
+
+spark-ignite-realtime:
+  label: Spark (Ignite Realtime)
+
+flask:
+  label: flask
+
+umbraco-cms:
+  label: umbraco cms
+
+teamviewer:
+  label: TeamViewer
+
+moodle-lms:
+  label: moodle lms
+
+drupal:
+  label: drupal
+
+nibbleblog-cms:
+  label: nibbleblog cms
+
+laravel-framework:
+  label: laravel framework
+
+gitea:
+  label: gitea
+
+php-server-monitor:
+  label: php server monitor
+
+nntp:
+  label: nntp
+
+apache-james:
+  label: apache james
+
+phpliteadmin:
+  label: phpLiteAdmin
+
+vnc:
+  label: vnc
+
+werkzeug:
+  label: werkzeug
+
+concrete-cms:
+  label: concrete cms
+
+mongo-express:
+  label: mongo-express
+
+custom-app-bot:
+  label: custom app/bot
+
+custom-app:
+  label: custom app
+
+custom-bot:
+  label: custom bot
+
+thinvnc:
+  label: ThinVNC
+
+lighttpd:
+  label: lighttpd
+
+pi-hole:
+  label: pi-hole
+
+node-js:
+  label: node.js
+
+adobe-coldfusion:
+  label: adobe coldfusion
+
+gitstack:
+  label: gitstack
+
+wing-ftp-server:
+  label: wing ftp server
+
+tightvnc:
+  label: TightVNC
+
+squid-proxy:
+  label: squid proxy
+
+proftpd:
+  label: proftpd
+
+vsftpd:
+  label: vsftpd
+
+opennetadmin:
+  label: OpenNetAdmin
+
+teamcity:
+  label: TeamCity
+
+django:
+  label: django
+
+imagemagick:
+  label: ImageMagick
+
+opencats:
+  label: OpenCATS
+
+waitress-wsgi:
+  label: waitress wsgi
+
+microsoft-ftp:
+  label: microsoft ftp
+
+pfsense:
+  label: pfsense
+
+irc:
+  label: irc
+
+phpbash:
+  label: phpbash
+
+tvt-nvms-1000:
+  label: TVT NVMS-1000
+
+nsclient:
+  label: NSClient++
+
+torrent-hoster:
+  label: Torrent Hoster
+
+rocket-chat:
+  label: rocket.chat
+
+monitorr:
+  label: Monitorr
+
+go-ipfs:
+  label: Go-IPFS
+
+selinux:
+  label: SELinux
+
+tigervnc:
+  label: TigerVNC
+
+dovecot:
+  label: dovecot
+
+mattermost:
+  label: Mattermost
+
+osticket:
+  label: osTicket
+
+fail2ban:
+  label: fail2ban
+
+cutenews:
+  label: CuteNews
+
+upnp:
+  label: upnp
+
+plex-media-server:
+  label: Plex Media Server
+
+projectsend:
+  label: ProjectSend
+
+restaurant-manager-system:
+  label: restaurant manager system
+
+phpbb:
+  label: phpBB
+
+ritecms:
+  label: RiteCMS
+
+es-file-explorer:
+  label: ES File Explorer
+
+adb:
+  label: android debug bridge
+
+telnet:
+  label: telnet
+
+logstash:
+  label: logstash
+
+typo3:
+  label: typo3
+
+h2-database-engine:
+  label: H2 Database Engine
+
+oracle-tns-listener:
+  label: oracle tns listener
+
+db-server:
+  label: db server
+
+adminer:
+  label: adminer
+
+go-web-server:
+  label: go web server
+
+youtube-dl:
+  label: youtube-dl
+
+sqlite3:
+  label: sqlite3
+
+wsl:
+  label: WSL
+
+pswa:
+  label: PSWA
+
+bgp:
+  label: bgp
+
+no-ip:
+  label: No-IP
+
+influxdb:
+  label: influxdb
+
+docker-engine-api:
+  label: docker engine api
+
+endlessh:
+  label: endlessh
+
+nagios-xi:
+  label: Nagios XI
+
+batflat-cms:
+  label: batflat cms
+
+jboss:
+  label: jboss
+
+getsimple-cms:
+  label: getsimple cms
+
+java-rmi:
+  label: java-rmi
+
+limesurvey:
+  label: LimeSurvey
+
+ghidra:
+  label: ghidra
+
+jdwp:
+  label: jdwp
+
+webanno:
+  label: webanno
+
+traffic-offense-management:
+  label: Traffic Offense Management
+
+pandora-fms:
+  label: pandora fms
