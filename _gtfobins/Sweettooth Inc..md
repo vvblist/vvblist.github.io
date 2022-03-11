@@ -25,7 +25,7 @@ attacks-techniques:
   db-enumeration: a
   creds: a
   docker-escape-privesc: a
-  pivoting-port-forwarding: a
+  routing: a
 subtechniques-spoiler:
   api-hacking: a
   CVE-2019-20933: a

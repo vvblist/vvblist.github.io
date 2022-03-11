@@ -26,13 +26,12 @@ attacks-techniques:
   source-code-review: a
 subtechniques-spoiler:
   dump-git-repository: a
-  vulnerable-code: a
+  php-source-code-review: a
   stored-creds: a
   bypass-via-ip-origin: a
   backup-file: a
   gpg-keys: a
   suid-custom: a
   encrypt-gpg: a
-  source-code-review: a
 
 ---

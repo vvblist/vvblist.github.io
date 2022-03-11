@@ -21,8 +21,9 @@ pentest-services-software:
   oscommerce: a
 attacks-techniques:
   code-execution-injection: a
-subtechniques-spoiler:
   public-exploit: a
+subtechniques-spoiler:
+  oscommerce-exploit: a
   php-code-execution-injection: a
 
 ---

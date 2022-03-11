@@ -23,7 +23,7 @@ attacks-techniques:
   inspection: a
   suid: a
   creds: a
-  pivoting-port-forwarding: a
+  routing: a
   db-enumeration: a
 subtechniques-spoiler:
   extension-fuzzing: a

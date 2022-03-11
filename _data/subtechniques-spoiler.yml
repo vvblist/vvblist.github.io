@@ -352,8 +352,8 @@ CVE-2008-4250:
 ms08-067:
   label: MS08-067
 
-froghopper:
-  label: Froghopper
+froghopper-exploit:
+  label: Froghopper exploit
 
 ms17-010:
   label: MS17-010
@@ -427,8 +427,8 @@ vulnerable-code:
 bypass-via-ip-origin:
   label: bypass via ip origin
 
-strcmp-bypass:
-  label: strcmp bypass
+type-juggling:
+  label: type juggling
 
 log-file:
   label: log file
@@ -625,6 +625,12 @@ joomla-rce-authenticated:
 wordpress-rce-authenticated:
   label: WordPress RCE authenticated
 
+magento-rce-authenticated:
+  label: Magento RCE authenticated
+
+maracms-rce-authenticated:
+  label: MaraCMS RCE authenticated
+
 bolt-rce-authenticated:
   label: Bolt RCE authenticated
 
@@ -648,6 +654,9 @@ moodle-rce-authenticated:
 
 voting-system-rce-authenticated:
   label: Voting System RCE authenticated
+
+sweetrice-rce-authenticated:
+  label: SweetRice RCE authenticated
 
 restricted-file-upload:
   label: restricted file upload
@@ -1515,3 +1524,120 @@ dll-hijacking:
 
 full-source-code-disclosure:
   label: full source code disclosure
+
+python-source-code-review:
+  label: python source code review
+
+php-source-code-review:
+  label: php source code review
+
+ruby-source-code-review:
+  label: ruby source code review
+
+modify-routing-table:
+  label: modify routing table
+
+add-static-route:
+  label: add static route
+
+totp:
+  label: totp
+
+xdebug-exploit:
+  label: xdebug exploit
+
+CVE-2019-11043:
+  label: CVE-2019-11043
+
+custom-binary-capabilitie:
+  label: custom binary capabilitie
+
+preg-replace-exploit:
+  label: preg replace exploit
+
+thecartpress-wp-plugin:
+  label: TheCartPress WP plugin
+
+php-8-1-0-dev-exploit:
+  label: php 8.1.0 dev exploit
+
+rms-exploit:
+  label: rms exploit
+
+sar2html-exploit:
+  label: sar2html exploit
+
+opennetadmin-exploit:
+  label: opennetadmin exploit
+
+gitstack-exploit:
+  label: gitstack exploit
+
+cuppacms-exploit:
+  label: cuppacms exploit
+
+apache-james-server-exploit:
+  label: apache james server exploit
+
+clipbucket-exploit:
+  label: clipbucket exploit
+
+nsclient-exploit:
+  label: NSClient++ exploit
+
+oscommerce-exploit:
+  label: osCommerce exploit
+
+gwolle-guestbook-wp-plugin:
+  label: Gwolle Guestbook WP plugin
+
+mail-masta-wp-plugin:
+  label: Mail Masta WP plugin
+
+duplicator-wp-plugin:
+  label: Duplicator WP plugin
+
+job-manager-wp-plugin:
+  label: job-manager WP plugin
+
+wp-with-spritz-wp-plugin:
+  label: WP with Spritz plugin
+
+zipslip-exploit:
+  label: zipslip exploit
+
+zipslip-exploit:
+  label: zipslip exploit
+
+CVE-2018-18925:
+  label: CVE-2018-18925
+
+CVE-2018-20303:
+  label: CVE-2018-20303
+
+suid-gosu:
+  label: suid gosu
+
+ssh-agent-hijack:
+  label: ssh agent hijack
+
+pscredential:
+  label: pscredential
+
+CVE-2017-0199:
+  label: CVE-2017-0199
+
+writeowner-on-user:
+  label: WriteOwner on User
+
+writedacl-on-group:
+  label: WriteDacl on Group
+
+stickynotes:
+  label: StickyNotes
+
+ps-constrained-language-escape:
+  label: PS Constrained Language Escape
+
+encfs-hash-decrypt:
+  label: encfs hash decrypt

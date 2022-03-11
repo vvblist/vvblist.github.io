@@ -20,7 +20,7 @@ attacks-techniques:
   command-injection: a
   sudo-privesc: a
   path-hijacking: a
-  pivoting-port-forwarding: a
+  routing: a
 subtechniques-spoiler:
   login-bruteforce: a
   command-injection: a

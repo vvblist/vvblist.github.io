@@ -20,13 +20,15 @@ pentest-services-software:
 attacks-techniques:
   fuzzing: a
   file-upload: a
+  unauthenticated-rce: a
+  public-exploit: a
   creds: a
   sudo-privesc: a
   permissions: a
 subtechniques-spoiler:
   directory-fuzzing: a
   unrestricted-file-upload: a
-  public-exploit: a
+  rms-exploit: a
   stored-creds: a
   sudo-reboot: a
   insecure-permissions: a

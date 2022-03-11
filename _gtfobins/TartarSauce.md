@@ -16,7 +16,7 @@ pentest-services-software:
 attacks-techniques:
   fuzzing: a
   inspection: a
-  wp-plugin: a
+  wp-plugin-exploit: a
   cve: a
   sudo-privesc: a
   cron-scheduled-tasks: a
@@ -24,6 +24,7 @@ attacks-techniques:
 subtechniques-spoiler:
   directory-fuzzing: a
   source-code-inspection: a
+  gwolle-guestbook-wp-plugin: a
   CVE-2015-8351: a
   rfi: a
   sudo-tar: a

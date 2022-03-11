@@ -19,8 +19,9 @@ attacks-techniques:
   fuzzing: a
   bruteforce: a
   creds: a
-  pivoting-port-forwarding: a
+  routing: a
   osint: a
+  source-code-review: a
   inclusion-traversal: a
 subtechniques-spoiler:
   source-code-inspection: a
@@ -30,5 +31,6 @@ subtechniques-spoiler:
   autologon-creds: a
   pivoting-port-forwarding: a
   osint-github-repository: a
+  php-source-code-review: a
 
 ---

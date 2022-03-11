@@ -25,13 +25,12 @@ pentest-services-software:
 attacks-techniques:
   file-upload: a
   fuzzing: a
-  wp-plugin: a
+  wp-plugin-exploit: a
   inclusion-traversal: a
 subtechniques-spoiler:
   file-upload-via-sql-queries: a
+  thecartpress-wp-plugin: a
   rfi: a
-  wordpress-plugin: a
   directory-fuzzing: a
-  public-exploit: a
 
 ---

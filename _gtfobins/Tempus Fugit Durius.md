@@ -25,7 +25,7 @@ pentest-services-software:
 attacks-techniques:
   command-injection: a
   creds: a
-  pivoting-port-forwarding: a
+  routing: a
   dns-attack: a
   authenticated-rce: a
   db-enumeration: a

@@ -17,7 +17,7 @@ attacks-techniques:
   cve: a
   inspection: a
   creds: a
-  pivoting-port-forwarding: a
+  routing: a
   adb: a
 subtechniques-spoiler:
   CVE-2019-6447: a

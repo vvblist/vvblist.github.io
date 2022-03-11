@@ -16,6 +16,7 @@ pentest-services-software:
   custom-app: a
   ssh: a
 attacks-techniques:
+  source-code-review: a
   fuzzing: a
   api: a
   idor: a
@@ -26,6 +27,7 @@ attacks-techniques:
   backup-config-system-log-file: a
   cron-scheduled-tasks: a
 subtechniques-spoiler:
+  ruby-source-code-review: a
   api-fuzzing: a
   api-hacking: a
   idor: a

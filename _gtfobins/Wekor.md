@@ -29,7 +29,7 @@ attacks-techniques:
   db-enumeration: a
   creds: a
   path-hijacking: a
-  pivoting-port-forwarding: a
+  routing: a
   sudo-privesc: a
   permissions: a
 subtechniques-spoiler:

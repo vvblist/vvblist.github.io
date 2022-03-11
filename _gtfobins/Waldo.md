@@ -22,7 +22,7 @@ attacks-techniques:
 subtechniques-spoiler:
   directory-traversal: a
   path-traversal: a
-  source-code-review: a
+  php-source-code-review: a
   ssh-keys: a
   docker-escape-via-ssh: a
   tar-capabilitie: a

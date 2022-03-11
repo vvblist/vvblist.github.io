@@ -16,11 +16,12 @@ attacks-techniques:
   permissions: a
   command-injection: a
   shell-escape-bypass-sandboxes: a
-  pivoting-port-forwarding: a
+  routing: a
 subtechniques-spoiler:
   cronjob: a
   insecure-permissions: a
   bypass-python-sandboxes: a
   python-execution-injection: a
+  pivoting-port-forwarding: a
 
 ---

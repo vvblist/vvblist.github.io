@@ -16,7 +16,7 @@ pentest-services-software:
 attacks-techniques:
   ssti: a
   ssrf: a
-  pivoting-port-forwarding: a
+  routing: a
   creds: a
   inspection: a
   sudo-privesc: a

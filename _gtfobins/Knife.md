@@ -13,10 +13,11 @@ all-services-software:
 pentest-services-software:
   http: a
 attacks-techniques:
+  public-exploit: a
   code-execution-injection: a
   sudo-privesc: a
 subtechniques-spoiler:
-  public-exploit: a
+  php-8-1-0-dev-exploit: a
   php-code-execution-injection: a
   sudo-knife: a
 

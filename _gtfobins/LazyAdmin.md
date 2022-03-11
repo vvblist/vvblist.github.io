@@ -15,15 +15,16 @@ pentest-services-software:
   http: a
   sweetrice: a
 attacks-techniques:
-  backup-config-system-log-file: a
-  file-upload: a
   fuzzing: a
+  backup-config-system-log-file: a
   decrypt: a
+  authenticated-rce: a
   sudo-privesc: a
 subtechniques-spoiler:
-  public-exploit: a
   directory-fuzzing: a
+  backup-file: a
   md5-hash-decrypt: a
+  sweetrice-rce-authenticated: a
   sudo-perl-script: a
 
 ---

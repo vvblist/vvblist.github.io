@@ -27,11 +27,11 @@ attacks-techniques:
 subtechniques-spoiler:
   directory-fuzzing: a
   ssti-bypass: a
-  source-code-review: a
   sqlite3-enumeration: a
   auth-bypass-via-cookie-forgery: a
   stored-creds: a
   ssh-bruteforce: a
   buffer-overflow: a
+  python-source-code-review: a
 
 ---

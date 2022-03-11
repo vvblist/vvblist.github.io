@@ -17,10 +17,11 @@ pentest-services-software:
   wordpress-cms: a
 attacks-techniques:
   creds: a
-  wp-plugin: a
+  wp-plugin-exploit: a
   sudo-privesc: a
   inclusion-traversal: a
 subtechniques-spoiler:
+  wp-with-spritz-wp-plugin: a
   rfi: a
   lfi: a
   ssh-keys: a

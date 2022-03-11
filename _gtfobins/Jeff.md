@@ -22,7 +22,7 @@ attacks-techniques:
   creds: a
   cron-scheduled-tasks: a
   sgid: a
-  pivoting-port-forwarding: a
+  routing: a
   sudo-privesc: a
   shell-escape-bypass-sandboxes: a
   wildcard-exploit: a

@@ -22,7 +22,7 @@ pentest-services-software:
 attacks-techniques:
   sql-injection: a
   db-enumeration: a
-  pivoting-port-forwarding: a
+  routing: a
   cve: a
   creds: a
   decrypt: a

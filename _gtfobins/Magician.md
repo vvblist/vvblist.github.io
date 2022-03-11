@@ -18,7 +18,7 @@ pentest-services-software:
 attacks-techniques:
   cve: a
   file-upload: a
-  pivoting-port-forwarding: a
+  routing: a
 subtechniques-spoiler:
   CVE-2016-3714: a
   pivoting-port-forwarding: a

@@ -26,7 +26,7 @@ subtechniques-spoiler:
   lfi: a
   hex-decode: a
   base64-decode: a
-  source-code-review: a
+  php-source-code-review: a
   php-deserialization: a
   rfi: a
   sudo-su: a

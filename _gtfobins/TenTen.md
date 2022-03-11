@@ -22,13 +22,14 @@ attacks-techniques:
   cve: a
   stego: a
   creds: a
-  wp-plugin: a
+  wp-plugin-exploit: a
   sudo-privesc: a
   user-groups: a
 subtechniques-spoiler:
   idor: a
   CVE-2015-6668: a
   stego: a
+  job-manager-wp-plugin: a
   ssh-keys: a
   sudo-bash-script: a
   lxd-group: a

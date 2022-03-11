@@ -22,7 +22,7 @@ pentest-services-software:
 attacks-techniques:
   bruteforce: a
   sudo-privesc: a
-  pivoting-port-forwarding: a
+  routing: a
   cve: a
 subtechniques-spoiler:
   login-bruteforce: a

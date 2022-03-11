@@ -27,7 +27,7 @@ attacks-techniques:
   code-reconstruction: a
   sql-injection: a
   file-upload: a
-  pivoting-port-forwarding: a
+  routing: a
   cve: a
   bgp-hijacking: a
   decrypt: a
@@ -38,6 +38,7 @@ subtechniques-spoiler:
   file-upload-via-sql-queries: a
   pivoting-port-forwarding: a
   CVE-2011-2523: a
+  modify-routing-table: a
   bgp-hijacking: a
   vigenere-decrypt: a
 

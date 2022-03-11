@@ -33,7 +33,7 @@ attacks-techniques:
   bruteforce: a
   abuse-privileges: a
   decode: a
-  pscredential: a
+  creds: a
 subtechniques-spoiler:
   nfs-mount: a
   asrep-roasting: a
@@ -47,7 +47,7 @@ subtechniques-spoiler:
   sebackupprivilege: a
   backup-operators-group: a
   hex-decode: a
-  secure-string-to-plaintext: a
+  pscredential: a
   change-password-via-smb-rpc: a
 
 ---

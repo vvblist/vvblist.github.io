@@ -28,7 +28,7 @@ attacks-techniques:
   command-injection: a
   creds: a
   docker-escape-privesc: a
-  pivoting-port-forwarding: a
+  routing: a
   decrypt: a
 subtechniques-spoiler:
   log-file: a

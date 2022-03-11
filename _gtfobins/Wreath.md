@@ -28,7 +28,7 @@ pentest-services-software:
 attacks-techniques:
   cve: a
   creds: a
-  pivoting-port-forwarding: a
+  routing: a
   firewall: a
   decrypt: a
   inspection: a

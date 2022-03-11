@@ -23,7 +23,7 @@ attacks-techniques:
   file-upload: a
   creds: a
   backup-config-system-log-file: a
-  pivoting-port-forwarding: a
+  routing: a
   cve: a
   misconfiguration: a
   two-factor-pin-authentication: a
@@ -34,6 +34,7 @@ subtechniques-spoiler:
   file-upload-via-sql-queries: a
   stored-creds: a
   log-file: a
+  pivoting-port-forwarding: a
   CVE-2020-14144: a
   misconfiguration: a
   bypass-two-factor: a

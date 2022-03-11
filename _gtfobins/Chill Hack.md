@@ -24,7 +24,7 @@ attacks-techniques:
   backup-config-system-log-file: a
   command-injection: a
   fuzzing: a
-  pivoting-port-forwarding: a
+  routing: a
   sudo-privesc: a
   user-groups: a
   docker-escape-privesc: a

@@ -26,7 +26,7 @@ attacks-techniques:
   creds: a
   authenticated-rce: a
   shell-escape-bypass-sandboxes: a
-  pivoting-port-forwarding: a
+  routing: a
 subtechniques-spoiler:
   backup-file: a
   decrypt-aes256cbc: a

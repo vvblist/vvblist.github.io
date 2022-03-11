@@ -32,7 +32,7 @@ attacks-techniques:
   creds: a
   db-enumeration: a
   misconfiguration: a
-  pivoting-port-forwarding: a
+  routing: a
   software-functionality: a
 subtechniques-spoiler:
   nfs-mount: a

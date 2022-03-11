@@ -15,7 +15,7 @@ pentest-services-software:
 attacks-techniques:
   fuzzing: a
   cve: a
-  pivoting-port-forwarding: a
+  routing: a
   user-groups: a
 subtechniques-spoiler:
   directory-fuzzing: a

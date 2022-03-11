@@ -21,6 +21,7 @@ attacks-techniques:
   file-upload: a
   fuzzing: a
   inspection: a
+  public-exploit: a
   backup-config-system-log-file: a
   decrypt: a
   cron-scheduled-tasks: a
@@ -33,7 +34,7 @@ subtechniques-spoiler:
   lfi: a
   stored-creds: a
   config-file: a
-  public-exploit: a
+  clipbucket-exploit: a
   apache-md5-hash-decrypt: a
   backup-file: a
   ssh-keys: a

@@ -16,7 +16,7 @@ pentest-services-software:
   ssh: a
   wordpress-cms: a
 attacks-techniques:
-  wp-plugin: a
+  wp-plugin-exploit: a
   bruteforce: a
   cron-scheduled-tasks: a
   library-hijacking: a
@@ -25,7 +25,7 @@ attacks-techniques:
   creds: a
 subtechniques-spoiler:
   login-bruteforce: a
-  public-exploit: a
+  user-role-editor-wp-plugin: a
   cronjob: a
   insecure-permissions: a
   library-hijacking: a

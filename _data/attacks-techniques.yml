@@ -124,8 +124,8 @@ unauthenticated-rce:
 permissions:
   label: permissions
 
-wp-plugin:
-  label: wp plugin
+wp-plugin-exploit:
+  label: wp plugin exploit
 
 dns-attack:
   label: dns attack
@@ -184,6 +184,9 @@ capabilities:
 docker-escape-privesc:
   label: docker escape/privesc
 
+routing:
+  label: routing
+
 pivoting-port-forwarding:
   label: pivoting/port forwarding
 
@@ -228,9 +231,6 @@ rootkit:
 
 usbcreator-d-bus:
   label: usbcreator d-bus
-
-pscredential:
-  label: pscredential
 
 abuse-rights:
   label: abuse rights
@@ -306,3 +306,6 @@ mobile-pentest:
 
 source-code-review:
   label: source code review
+
+public-exploit:
+  label: public exploit

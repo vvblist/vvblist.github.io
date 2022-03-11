@@ -17,7 +17,7 @@ attacks-techniques:
   bruteforce: a
   sudo-privesc: a
   library-hijacking: a
-  pivoting-port-forwarding: a
+  routing: a
 subtechniques-spoiler:
   python-deserialization: a
   pivoting-port-forwarding: a

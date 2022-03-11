@@ -23,11 +23,13 @@ attacks-techniques:
   udp-enumeration: a
   creds: a
   code-execution-injection: a
+  routing: a
   bgp-hijacking: a
 subtechniques-spoiler:
   snmp-enumeration: a
   exposed-credentials: a
   bash-execution-injection: a
+  modify-routing-table: a
   bgp-hijacking: a
 
 ---

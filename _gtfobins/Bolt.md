@@ -19,7 +19,6 @@ attacks-techniques:
   authenticated-rce: a
 subtechniques-spoiler:
   stored-creds: a
-  public-exploit: a
   bolt-rce-authenticated: a
 
 ---

@@ -30,6 +30,7 @@ attacks-techniques:
   creds: a
   password-spraying: a
   software-functionality: a
+  public-exploit: a
   inclusion-traversal: a
 subtechniques-spoiler:
   backup-file: a
@@ -37,7 +38,7 @@ subtechniques-spoiler:
   stored-creds: a
   password-spraying: a
   software-functionality: a
-  public-exploit: a
+  nsclient-exploit: a
   directory-traversal: a
 
 ---

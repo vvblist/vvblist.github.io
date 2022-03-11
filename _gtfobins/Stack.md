@@ -24,10 +24,11 @@ pentest-services-software:
 attacks-techniques:
   creds: a
   unauthenticated-rce: a
+  public-exploit: a
   decrypt: a
 subtechniques-spoiler:
   default-common-creds: a
-  public-exploit: a
+  gitstack-exploit: a
   keepass-creds: a
   keepass-hash-decrypt: a
 

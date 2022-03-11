@@ -18,7 +18,7 @@ pentest-services-software:
   wordpress-cms: a
 attacks-techniques:
   fuzzing: a
-  wp-plugin: a
+  wp-plugin-exploit: a
   decrypt: a
   creds: a
   authenticated-rce: a
@@ -29,6 +29,7 @@ attacks-techniques:
   inclusion-traversal: a
 subtechniques-spoiler:
   directory-fuzzing: a
+  mail-masta-wp-plugin: a
   vigenere-decrypt: a
   lfi: a
   stored-creds: a

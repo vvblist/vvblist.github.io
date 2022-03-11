@@ -27,7 +27,7 @@ attacks-techniques:
   fuzzing: a
   cve: a
   nosql-injection: a
-  pivoting-port-forwarding: a
+  routing: a
   backup-config-system-log-file: a
   creds: a
   file-upload: a

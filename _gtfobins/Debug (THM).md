@@ -16,6 +16,7 @@ pentest-services-software:
   ssh: a
 attacks-techniques:
   backup-config-system-log-file: a
+  source-code-review: a
   deserialization: a
   fuzzing: a
   hidden-file: a
@@ -25,6 +26,7 @@ attacks-techniques:
   inspection: a
 subtechniques-spoiler:
   php-deserialization: a
+  php-source-code-review: a
   source-code-inspection: a
   directory-fuzzing: a
   backup-file: a

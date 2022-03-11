@@ -23,15 +23,15 @@ attacks-techniques:
   sql-injection: a
   command-injection: a
   authentication-bypass: a
-  cron-scheduled-tasks: a
-  misconfiguration: a
-  broken-access-control: a
-subtechniques-spoiler:
-  command-injection: a
   public-exploit: a
-  evil-regex: a
-  auth-bypass-via-sql-injection: a
-  cronjob: a
+  cron-scheduled-tasks: a
+  permissions: a
+subtechniques-spoiler:
   mysql-injection: a
+  command-injection: a
+  auth-bypass-via-sql-injection: a
+  preg-replace-exploit: a
+  cronjob: a
+  insecure-permissions: a
 
 ---

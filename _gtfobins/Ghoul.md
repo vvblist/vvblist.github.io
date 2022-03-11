@@ -1,41 +1,46 @@
 ---
 properties:
-  medium: a
+  hard: a
   unix: a
   ubuntu: a
-  ctf: a
-  free: a
-  tryhackme: a
+  realistic: a
+  paid: a
+  hackthebox: a
 all-services-software:
   ssh: a
   http: a
   apache: a
+  tomcat: a
+  gogs: a
 pentest-services-software:
+  ssh: a
   http: a
+  gogs: a
 attacks-techniques:
   fuzzing: a
-  misconfiguration: a
   bruteforce: a
   creds: a
+  public-exploit: a
   backup-config-system-log-file: a
-  sudo-privesc: a
   routing: a
+  cve: a
+  suid: a
   inspection: a
-  command-injection: a
-  inclusion-traversal: a
+  session-hijacking: a
 subtechniques-spoiler:
   extension-fuzzing: a
-  homedir-access: a
+  directory-fuzzing: a
   login-bruteforce: a
   stored-creds: a
-  lfi: a
-  log-poisoning: a
-  backup-file: a
-  sudo-find: a
+  default-common-creds: a
+  zipslip-exploit: a
+  config-file: a
   pivoting-port-forwarding: a
-  source-code-inspection: a
-  exposed-credentials: a
-  command-injection: a
-  sudo-python-script: a
+  ssh-keys: a
+  CVE-2018-18925: a
+  CVE-2018-20303: a
+  suid-gosu: a
+  git-inspection: a
+  ssh-agent-hijack: a
 
 ---

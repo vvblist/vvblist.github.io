@@ -20,7 +20,7 @@ attacks-techniques:
   authenticated-rce: a
   bruteforce: a
   creds: a
-  pivoting-port-forwarding: a
+  routing: a
 subtechniques-spoiler:
   directory-fuzzing: a
   login-bruteforce: a

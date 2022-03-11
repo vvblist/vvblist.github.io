@@ -21,7 +21,7 @@ subtechniques-spoiler:
   sudo-python-script: a
   sudo-setenv: a
   osint-github-repository: a
-  source-code-review: a
   bash-execution-injection: a
+  python-source-code-review: a
 
 ---

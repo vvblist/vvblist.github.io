@@ -33,7 +33,6 @@ subtechniques-spoiler:
   exposed-credentials: a
   backup-file: a
   mysql-rogue-server: a
-  public-exploit: a
   sudo-setenv: a
   sudo-bash-script: a
 

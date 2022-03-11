@@ -23,7 +23,7 @@ attacks-techniques:
   file-upload: a
   command-injection: a
   creds: a
-  pivoting-port-forwarding: a
+  routing: a
   dns-attack: a
   fuzzing: a
   authenticated-rce: a

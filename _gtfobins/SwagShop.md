@@ -16,13 +16,15 @@ pentest-services-software:
   magento-cms: a
 attacks-techniques:
   cve: a
+  public-exploit: a
+  authenticated-rce: a
   sudo-privesc: a
 subtechniques-spoiler:
   CVE-2015-1397: a
   CVE-2015-1398: a
   CVE-2015-1399: a
-  public-exploit: a
-  froghopper: a
+  magento-rce-authenticated: a
+  froghopper-exploit: a
   sudo-vi: a
 
 ---

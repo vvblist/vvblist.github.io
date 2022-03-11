@@ -486,3 +486,12 @@ traffic-offense-management:
 
 pandora-fms:
   label: pandora fms
+
+gogs:
+  label: gogs
+
+outlook-web-app:
+  label: outlook web app
+
+wallstant:
+  label: wallstant

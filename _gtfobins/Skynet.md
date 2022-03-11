@@ -28,6 +28,7 @@ attacks-techniques:
   backup-config-system-log-file: a
   creds: a
   bruteforce: a
+  public-exploit: a
   cron-scheduled-tasks: a
   wildcard-exploit: a
   inclusion-traversal: a
@@ -35,7 +36,7 @@ subtechniques-spoiler:
   directory-fuzzing: a
   stored-creds: a
   login-bruteforce: a
-  public-exploit: a
+  cuppacms-exploit: a
   rfi: a
   cronjob: a
   tar-wildcard: a

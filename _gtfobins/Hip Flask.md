@@ -38,6 +38,6 @@ subtechniques-spoiler:
   auth-bypass-via-cookie-forgery: a
   full-source-code-disclosure: a
   CVE-2021-3560: a
-  source-code-review: a
+  python-source-code-review: a
 
 ---

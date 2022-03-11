@@ -21,6 +21,7 @@ attacks-techniques:
   fuzzing: a
   bruteforce: a
   inspection: a
+  public-exploit: a
   creds: a
   rootkit: a
   inclusion-traversal: a
@@ -29,8 +30,8 @@ attacks-techniques:
   race-condition: a
 subtechniques-spoiler:
   directory-fuzzing: a
+  type-juggling: a
   strcmp-bypass: a
-  public-exploit: a
   login-bruteforce: a
   image-inspection: a
   ssh-keys: a

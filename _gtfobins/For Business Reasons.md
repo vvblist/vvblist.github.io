@@ -20,7 +20,7 @@ attacks-techniques:
   authenticated-rce: a
   user-groups: a
   docker-escape-privesc: a
-  pivoting-port-forwarding: a
+  routing: a
   creds: a
 subtechniques-spoiler:
   login-bruteforce: a

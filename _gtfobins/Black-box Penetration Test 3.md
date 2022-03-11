@@ -16,7 +16,7 @@ attacks-techniques:
   file-upload: a
   creds: a
   bruteforce: a
-  pivoting-port-forwarding: a
+  routing: a
 subtechniques-spoiler:
   file-upload-via-ftp: a
   default-common-creds: a

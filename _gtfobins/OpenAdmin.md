@@ -18,14 +18,15 @@ pentest-services-software:
 attacks-techniques:
   fuzzing: a
   command-injection: a
+  public-exploit: a
   creds: a
-  pivoting-port-forwarding: a
+  routing: a
   permissions: a
   sudo-privesc: a
 subtechniques-spoiler:
-  public-exploit: a
   directory-fuzzing: a
   command-injection: a
+  opennetadmin-exploit: a
   stored-creds: a
   pivoting-port-forwarding: a
   insecure-permissions: a

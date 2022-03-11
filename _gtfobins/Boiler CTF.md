@@ -25,13 +25,14 @@ attacks-techniques:
   decrypt: a
   fuzzing: a
   command-injection: a
+  public-exploit: a
   suid: a
   creds: a
 subtechniques-spoiler:
   rot13: a
   directory-fuzzing: a
   hidden-file: a
-  public-exploit: a
+  sar2html-exploit: a
   stored-creds: a
   suid-find: a
 

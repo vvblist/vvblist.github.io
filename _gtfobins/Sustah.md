@@ -17,14 +17,15 @@ pentest-services-software:
   mara-cms: a
 attacks-techniques:
   creds: a
-  file-upload: a
+  fuzzing: a
+  authenticated-rce: a
   sudo-alternative: a
   backup-config-system-log-file: a
   hidden-file: a
 subtechniques-spoiler:
   default-common-creds: a
-  public-exploit: a
   custom-fuzzing: a
+  maracms-rce-authenticated: a
   doas-rsync: a
   backup-file: a
   hidden-file: a

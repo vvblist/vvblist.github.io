@@ -23,13 +23,14 @@ pentest-services-software:
   smtp: a
 attacks-techniques:
   creds: a
+  public-exploit: a
   misconfiguration: a
   cron-scheduled-tasks: a
   permissions: a
 subtechniques-spoiler:
   default-common-creds: a
-  public-exploit: a
   stored-creds: a
+  apache-james-server-exploit: a
   cronjob: a
   insecure-permissions: a
   change-password-via-custom-app: a

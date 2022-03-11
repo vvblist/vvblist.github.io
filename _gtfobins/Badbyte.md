@@ -22,15 +22,17 @@ pentest-services-software:
 attacks-techniques:
   creds: a
   cve: a
-  wp-plugin: a
+  wp-plugin-exploit: a
   inclusion-traversal: a
-  pivoting-port-forwarding: a
+  routing: a
 subtechniques-spoiler:
   ssh-keys: a
+  duplicator-wp-plugin: a
   CVE-2020-25213: a
   CVE-2020-11738: a
   stored-creds: a
   password-mutation: a
   directory-traversal: a
+  pivoting-port-forwarding: a
 
 ---
